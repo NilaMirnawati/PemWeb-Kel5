@@ -12,8 +12,7 @@
     <title>bimbelkami</title>
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark mb-5" style="background-color: #002E94;">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-5" style="background-color: #002e94">
       <!-- container membuat navbar tidak terlalu menempel ke kiri -->
       <div class="container">
         <a class="navbar-brand" href="#">BimbelKami.</a>
@@ -21,22 +20,35 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <!-- ml-auto menambahkan margin agar home dll berada di kanan -->
-          <div class="navbar-nav ml-auto">    
+          <!-- ml-auto menambahkan margin agar home dll berada di kanan -->
+          <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="#">HOME</a>
-            <a class="nav-item nav-link" href="#">RUANG KELAS</a>
-            <a class="nav-item nav-link" href="#">BUKU PELAJARAN</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">RUANG KELAS</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">XII</a>
+                <a class="dropdown-item" href="#">XIII</a>
+                <a class="dropdown-item" href="#">IX</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">BUKU PELAJARAN</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="bukupelajaran1.html">XII</a>
+                <a class="dropdown-item" href="bukupelajaran2.html">XIII</a>
+                <a class="dropdown-item" href="bukupelajaran3.html">IX</a>
+              </div>
+            </li>
             <a class="nav-item nav-link" href="#">ABOUT US</a>
           </div>
-          </div>
-            <button type="button" class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">SignUp</button>
-        </div>
+          <button type="button" class="btn btn-primary col-sm-1 col-xs-1 col-md-1 col-lg-1">SignUp</button>
+          <button type="button" class="btn btn-primary col-sm-1 col-xs-1 col-md-1 col-lg-1">Login</button>
         </div>
       </div>
     </nav>
 
-    <div class="container mb-5">
-      <div class="row mb-5">
+    <div class="container">
+      <div class="row">
         <div class="col">
           <img src="img/gambar1.png" class="card-img">
         </div>
@@ -56,34 +68,108 @@
       </div>
     </div>
 
-    <footer class="text-light" style="background-color: #002E94;">
-      <div class="container">
-        <div class="row">
-          <div class="col text-lg-center ">
-            <h3>Hubungi Kami</h3>
-            <p> 085231231231</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> info.bimbelkami@gmail.com</p>
-            <p>021400000000</p>
-          </div>
-          <div class="col text-lg-center">
-            <h3>Ikuti Kami</h3>
-            <p>Instagram</p>
-            <p>Youtube</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
+    <!-- Footer -->
+    <footer class="text-center mt-5 text-lg-start text-white" style="background-color: #002e94">
+      <!-- Grid container -->
+      <div class="container p-2">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-4 mb-4 mb-md-0">
+            <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 130px; height: 130px">
+              <img src="IMAGES/logo1000.jpg" height="130" alt="" class="rounded-circle" loading="lazy" />
+            </div>
 
-    <footer class="bg-light text-dark">
-      <div class="container">
-        <div class="row pt-3">
-          <div class="col text-center">
-            <p>2022 <b>BimbelKami.</b> All Right Reserved. </p>
+            <p class="text-center"><b>BELAJAR DENGAN BAHAGIA BERSAMA BIMBELKAMI.</b></p>
+
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+              <li>
+                <a class="text-white px-2" href="">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white ps-2" href="">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
           </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <!-- <div class="col-lg-3 col-md-6 mb-4 mb-md-0"> 
+            <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>For more information!</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control text-bg-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="justify-content-center btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Send</button>
+                    </div>
+          </div> -->
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <!-- <div class="col-lg-4 col-md-4 mb-4 mb-md-0"> 
+            <h5 class="text-uppercase mb-4">Quick Links</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="about.html" class="text-white"><i class="fas fa-paw pe-3"></i>About Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-white"><i class="fas fa-paw pe-3"></i>Contact Us</a>
+              </li>
+              <li class="mb-2">
+                <a href="" class="text-white"><i class="fas fa-paw pe-3"></i>Our Services</a>
+              </li>
+              <li class="mb-2">
+                <a href="news.html" class="text-white"><i class="fas fa-paw pe-3"></i>News</a>
+              </li>
+              <li class="mb-2">
+                <a href="review.html" class="text-white"><i class="fas fa-paw pe-3"></i>Game Review</a>
+              </li>
+              <li class="mb-2">
+                <a href="" class="text-white"><i class="fas fa-paw pe-3"></i>Support</a>
+              </li>
+            </ul>
+          </div> -->
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-4 mb-2 mb-md-0">
+            <h5 class="text-uppercase mb-3">Contact</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <p><i class="fas fa-map-marker-alt pe-2"></i> Ketintang, Surabaya, Indonesia</p>
+              </li>
+              <li>
+                <p><i class="fas fa-phone pe-2"></i>+ 62 8165 8456 231</p>
+              </li>
+              <li>
+                <p><i class="fas fa-envelope pe-2 mb-0"></i> info.bimbelkami@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
         </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center bg-light text-dark p-1">
+        © 2022
+        <a class="text-dark fw-bold" style="font-weight: bold">BimbelKami.</a>
+        All Right Reserved.
       </div>
     </footer>
+    <!-- Akhir Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
