@@ -11,7 +11,7 @@
                 <img src="img/mapel/matematika.jpg" class="card-img-top" alt="ashel" />
                 <div class="card-body text-dark text-center py-3">
                   <h5 class="card-title">Matematika VIII</h5>
-                  <a href="matkelas2.html">
+                  <a href="matkelas2.php">
                     <button type="button" class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
                 </a>
                 </div>
@@ -22,7 +22,7 @@
                 <img src="img/mapel/ina.jpg" class="card-img-top" alt="ashel" />
                 <div class="card-body text-dark text-center py-3">
                   <h5 class="card-title">Bahasa Indonesia VIII</h5>
-                  <a href="indkelas2.html">
+                  <a href="indkelas2.php">
                     <button type="button" class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
                 </a>
                 </div>
@@ -33,7 +33,7 @@
                 <img src="img/mapel/ing.jpg" class="card-img-top" alt="ashel" />
                 <div class="card-body text-dark text-center py-3">
                   <h5 class="card-title">Bahasa Inggris VIII</h5>
-                  <a href="ingkelas2.html">
+                  <a href="ingkelas2.php">
                     <button type="button" class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
                 </a>
                 </div>

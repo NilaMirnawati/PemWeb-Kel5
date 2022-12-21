@@ -10,7 +10,7 @@
         <div
           class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
           style="width: 130px; height: 130px">
-          <img src="img/logo.jpg" height="130" alt="" class="rounded-circle" loading="lazy" />
+          <img src="img/BIMBEL2circle.png" height="130" alt="" class="rounded-circle" loading="lazy" />
         </div>
 
         <p class="text-center"><b>BELAJAR DENGAN BAHAGIA BERSAMA BIMBELKAMI.</b></p>
