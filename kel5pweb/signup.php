@@ -1,4 +1,4 @@
-<?php include("header_login.php"); ?>
+<?php include("header.php"); ?>
 
 <div class="container mb-5">
   <div class="row mb-5">
@@ -9,7 +9,7 @@
       <p></p>
       <h2 class="text-center">Create new Account</h2>
       <p></p>
-      <p class="text-center">Already Registered? <a href="login.html">Login</a></p>
+      <p class="text-center">Already Registered? <a href="login.php">Login</a></p>
       <div class="position-relative mx-auto my-5" style="max-width: 400px">
         <p class="text-start mt-3">Nama</p>
         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Full Name" />

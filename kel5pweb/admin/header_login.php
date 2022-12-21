@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark mb-5" style="background-color: #002e94">
         <!-- container membuat navbar tidak terlalu menempel ke kiri -->
         <div class="container">
-            <a class="navbar-brand" href="#">BimbelKami.</a>
+            <a class="navbar-brand" href="dashboard_admin.php">BimbelKami.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
