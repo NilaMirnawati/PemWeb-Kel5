@@ -2,7 +2,7 @@
 
 
 <?php
-include("session.php");
+include("session_admin.php");
 include("header_login.php");
 
 ?>
@@ -23,15 +23,6 @@ include("header_login.php");
     <ul class="nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#daftarBuku">Daftar Buku</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Daftar Video</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Daftar Transaksi</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
     </ul>
 

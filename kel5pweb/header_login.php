@@ -18,7 +18,7 @@
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
 
-    <title></title>
+    <title>BimbelKami</title>
 </head>
 
 <body>
@@ -41,9 +41,9 @@
                             RUANG KELAS
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownRuangKelas">
-                            <li><a class="dropdown-item" href="ruangkelas1.html">VII</a></li>
-                            <li><a class="dropdown-item" href="ruangkelas2.html">VIII</a></li>
-                            <li><a class="dropdown-item" href="ruangkelas3.html">IX</a></li>
+                            <li><a class="dropdown-item" href="ruangkelas1.php">VII</a></li>
+                            <li><a class="dropdown-item" href="ruangkelas2.php">VIII</a></li>
+                            <li><a class="dropdown-item" href="ruangkelas3.php">IX</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -52,12 +52,12 @@
                             BUKU PELAJARAN
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownBuku">
-                            <li><a class="dropdown-item" href="bukupelajaran1.html">VII</a></li>
-                            <li><a class="dropdown-item" href="bukupelajaran2.html">VIII</a></li>
-                            <li><a class="dropdown-item" href="bukupelajaran3.html">IX</a></li>
+                            <li><a class="dropdown-item" href="bukupelajaran1.php">VII</a></li>
+                            <li><a class="dropdown-item" href="bukupelajaran2.php">VIII</a></li>
+                            <li><a class="dropdown-item" href="bukupelajaran3.php">IX</a></li>
                         </ul>
                     </li>
-                    <a class="nav-item nav-link" href="aboutus.html">ABOUT US</a>
+                    <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a>
                 </ul>
                 <a class="btn btn-primary" href="logout.php" role="button">Logout</a>
             </div>

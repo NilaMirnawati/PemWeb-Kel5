@@ -18,7 +18,7 @@
   <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
 
-  <title></title>
+  <title>BimbelKami</title>
 </head>
 
 <body>
@@ -37,20 +37,20 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">RUANG KELAS</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="ruangkelas1.html">VII</a>
-              <a class="dropdown-item" href="ruangkelas2.html">VIII</a>
-              <a class="dropdown-item" href="ruangkelas3.html">IX</a>
+              <a class="dropdown-item" href="ruangkelas1.php">VII</a>
+              <a class="dropdown-item" href="ruangkelas2.php">VIII</a>
+              <a class="dropdown-item" href="ruangkelas3.php">IX</a>
             </div>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">BUKU PELAJARAN</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="bukupelajaran1.php">VII</a>
-              <a class="dropdown-item" href="bukupelajaran2.html">VIII</a>
-              <a class="dropdown-item" href="bukupelajaran3.html">IX</a>
+              <a class="dropdown-item" href="bukupelajaran2.php">VIII</a>
+              <a class="dropdown-item" href="bukupelajaran3.php">IX</a>
             </div>
           </li>
-          <a class="nav-item nav-link" href="aboutus.html">ABOUT US</a>
+          <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a>
         </div>
         <a class="btn btn-primary" href="signup.php" role="button">SignUp</a>
         <a class="btn btn-primary" href="login.php" role="button">Login</a>

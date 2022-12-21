@@ -33,12 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <!-- ml-auto menambahkan margin agar home dll berada di kanan -->
                 <ul class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="dashboard.php">HOME</a>
+                    <a class="nav-item nav-link" href="dashboard_admin.php">HOME</a>
                     <a class="nav-item nav-link" href="input_buku.php">INPUT BUKU</a>
-                    <a class="nav-item nav-link" href="#">INPUT VIDEO</a>
-                    <a class="nav-item nav-link" href="#">VIEW TRANSAKSI</a>
                 </ul>
-                <a class="btn btn-primary" href="logout.php" role="button">Logout</a>
+                <a class="btn btn-primary" href="logout_admin.php" role="button">Logout</a>
             </div>
         </div>
     </nav>

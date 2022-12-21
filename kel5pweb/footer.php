@@ -9,7 +9,7 @@
         <div
           class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
           style="width: 130px; height: 130px">
-          <img src="IMAGES/logo1000.jpg" height="130" alt="" class="rounded-circle" loading="lazy" />
+          <img src="img/logo.jpg" height="130" alt="" class="rounded-circle" loading="lazy" />
         </div>
 
         <p class="text-center"><b>BELAJAR DENGAN BAHAGIA BERSAMA BIMBELKAMI.</b></p>
@@ -32,45 +32,6 @@
           </li>
         </ul>
       </div>
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <!-- <div class="col-lg-3 col-md-6 mb-4 mb-md-0"> 
-              <h4 class="text-light mb-4">Newsletter</h4>
-                      <p>For more information!</p>
-                      <div class="position-relative mx-auto" style="max-width: 400px;">
-                          <input class="form-control text-bg-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                          <button type="button" class="justify-content-center btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Send</button>
-                      </div>
-            </div> -->
-      <!--Grid column-->
-
-      <!--Grid column-->
-      <!-- <div class="col-lg-4 col-md-4 mb-4 mb-md-0"> 
-              <h5 class="text-uppercase mb-4">Quick Links</h5>
-    
-              <ul class="list-unstyled">
-                <li class="mb-2">
-                  <a href="about.html" class="text-white"><i class="fas fa-paw pe-3"></i>About Us</a>
-                </li>
-                <li class="mb-2">
-                  <a href="contact.html" class="text-white"><i class="fas fa-paw pe-3"></i>Contact Us</a>
-                </li>
-                <li class="mb-2">
-                  <a href="" class="text-white"><i class="fas fa-paw pe-3"></i>Our Services</a>
-                </li>
-                <li class="mb-2">
-                  <a href="news.html" class="text-white"><i class="fas fa-paw pe-3"></i>News</a>
-                </li>
-                <li class="mb-2">
-                  <a href="review.html" class="text-white"><i class="fas fa-paw pe-3"></i>Game Review</a>
-                </li>
-                <li class="mb-2">
-                  <a href="" class="text-white"><i class="fas fa-paw pe-3"></i>Support</a>
-                </li>
-              </ul>
-            </div> -->
-      <!--Grid column-->
 
       <!--Grid column-->
       <div class="col-lg-6 col-md-4 mb-2 mb-md-0">

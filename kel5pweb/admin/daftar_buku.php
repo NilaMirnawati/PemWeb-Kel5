@@ -95,7 +95,7 @@
                             <span class="badge bg-warning text-dark">Edit</span>
                         </a>
 
-                        <a href="dashboard.php?op=delete&id=<?php echo $r1['ID_BUKU'] ?>"
+                        <a href="dashboard_admin.php?op=delete&id=<?php echo $r1['ID_BUKU'] ?>"
                             onclick="return confirm('Apakah yakin ingin menghapus data buku?')">
                             <span class="badge bg-danger text-light">Delete</span>
                         </a>
@@ -117,7 +117,7 @@
                     ?>
                 <li class="page-item">
                     <a class="page-link"
-                        href="dashboard.php?katakunci=<?php echo $katakunci ?>&cari=<?php echo $cari ?>&page=<?php echo $i ?>">
+                        href="dashboard_admin.php?katakunci=<?php echo $katakunci ?>&cari=<?php echo $cari ?>&page=<?php echo $i ?>">
                         <?php echo $i ?>
                     </a>
                 </li>

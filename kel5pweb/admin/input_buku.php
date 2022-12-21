@@ -1,5 +1,5 @@
 <?php
-include("session.php");
+include("session_admin.php");
 include("header_login.php");
 
 $judul = "";
@@ -97,7 +97,7 @@ if (isset($_POST['simpan'])) {
                 aria-hidden="true">&times;</span></button>
     </div>
     <?php } else { ?>
-    <?php header("location:dashboard.php"); ?>
+    <?php header("location:dashboard_admin.php"); ?>
 </div>
 <?php
         }
