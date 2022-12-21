@@ -11,8 +11,10 @@
                     <img src="img/mapel/matematika.jpg" class="card-img-top" alt="ashel" />
                     <div class="card-body text-dark text-center py-3">
                         <h5 class="card-title">Matematika IX</h5>
-                        <button type="button"
-                            class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
+                        <a href="matkelas1.php">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -21,8 +23,10 @@
                     <img src="img/mapel/ina.jpg" class="card-img-top" alt="ashel" />
                     <div class="card-body text-dark text-center py-3">
                         <h5 class="card-title">Bahasa Indonesia IX</h5>
-                        <button type="button"
-                            class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
+                        <a href="indkelas1.php">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -31,8 +35,10 @@
                     <img src="img/mapel/ing.jpg" class="card-img-top" alt="ashel" />
                     <div class="card-body text-dark text-center py-3">
                         <h5 class="card-title">Bahasa Inggris IX</h5>
-                        <button type="button"
-                            class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
+                        <a href="ingkelas1.php">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-relative top-0 end-0 mt-1 me-2">Akses</button>
+                        </a>
                     </div>
                 </div>
             </div>
