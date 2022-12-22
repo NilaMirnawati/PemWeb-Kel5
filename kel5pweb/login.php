@@ -1,6 +1,7 @@
 <!-- halaman login -->
 
 <?php
+session_start();
 include("header.php");
 ?>
 
@@ -31,7 +32,7 @@ include("header.php");
       <div>
         <?php
         if (isset($_POST['login-btn'])) {
-          session_start();
+
           $username = $_POST['username'];
           $password = $_POST['password'];
           //$_SESSION['login'] = false
@@ -39,16 +40,32 @@ include("header.php");
           $query_login_user = mysqli_query($koneksi, "SELECT * FROM user WHERE (usrnm_user = '" . $username . "' AND pw_user = '" . $password . "')");
 
           $data_user = mysqli_fetch_array($query_login_user);
-          
-          if (mysqli_num_rows($query_login_user) > 0) {
-            $_SESSION['login_user'] = true;
-            $_SESSION['id_user'] = $data_user[0];
-            $_SESSION['username_user'] = $data_user[1];
 
-            echo '<script>window.location = "dashboard.php"</script>';
+          $query_login_admin = mysqli_query($koneksi, "SELECT * FROM admin WHERE (usrnm_admin = '" . $username . "' AND pw_admin = '" . $password . "')");
+
+          $data_admin = mysqli_fetch_array($query_login_admin);
+
+          if (mysqli_num_rows($query_login_user) > 0 or mysqli_num_rows($query_login_admin) > 0) {
+
+            if (mysqli_num_rows($query_login_user) > 0) {
+              $_SESSION['login_user'] = true;
+              $_SESSION['id_user'] = $data_user[0];
+              $_SESSION['username_user'] = $data_user[1];
+
+              echo '<script>window.location = "dashboard.php"</script>';
+            } else if (mysqli_num_rows($query_login_admin) > 0) {
+              if (mysqli_num_rows($query_login_admin) > 0) {
+                $_SESSION['login_admin'] = true;
+                $_SESSION['id_admin'] = $data_admin[0];
+                $_SESSION['username_admin'] = $data_admin[1];
+
+                echo '<script>window.location = "admin/input_buku.php"</script>';
+              }
+            }
           } else {
             echo '<script>alert("Username atau Password salah!")</script>';
           }
+
         }
         ?>
       </div>

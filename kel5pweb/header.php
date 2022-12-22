@@ -17,12 +17,18 @@
   <!-- include summernote css/js -->
   <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
-  
+
   <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
   <title>BimbelKami</title>
 </head>
@@ -39,24 +45,33 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <!-- ml-auto menambahkan margin agar home dll berada di kanan -->
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="index.php">HOME</a>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">RUANG KELAS</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="ruangkelas1.php">VII</a>
-              <a class="dropdown-item" href="ruangkelas2.php">VIII</a>
-              <a class="dropdown-item" href="ruangkelas3.php">IX</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">BUKU PELAJARAN</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="bukupelajaran1.php">VII</a>
-              <a class="dropdown-item" href="bukupelajaran2.php">VIII</a>
-              <a class="dropdown-item" href="bukupelajaran3.php">IX</a>
-            </div>
-          </li>
-          <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a>
+          <ul class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="dashboard.php">HOME</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownRuangKelas" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                RUANG KELAS
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownRuangKelas">
+                <li><a class="dropdown-item" href="ruangkelas1.php">VII</a></li>
+                <li><a class="dropdown-item" href="ruangkelas2.php">VIII</a></li>
+                <li><a class="dropdown-item" href="ruangkelas3.php">IX</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownBuku" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BUKU PELAJARAN
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownBuku">
+                <li><a class="dropdown-item" href="bukupelajaran1.php">VII</a></li>
+                <li><a class="dropdown-item" href="bukupelajaran2.php">VIII</a></li>
+                <li><a class="dropdown-item" href="bukupelajaran3.php">IX</a></li>
+              </ul>
+            </li>
+            <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a>
+          </ul>
         </div>
         <a class="btn btn-primary" href="signup.php" role="button">SignUp</a>
         <a class="btn btn-primary" href="login.php" role="button">Login</a>

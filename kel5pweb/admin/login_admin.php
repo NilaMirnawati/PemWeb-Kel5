@@ -36,6 +36,8 @@ include("../koneksi.php");
                             class="btn btn-primary pt-2 mt-4 d-grid col-12 mx-auto">Login</button>
                     </div>
                 </form>
+
+                <a class="btn btn-primary text-center my-2" href="../login.php" role="button">Kembali ke halaman login user</a>
             </div>
             <div>
                 <?php
@@ -55,13 +57,17 @@ include("../koneksi.php");
                         $_SESSION['id_admin'] = $data_admin[0];
                         $_SESSION['username_admin'] = $data_admin[1];
 
-                        echo '<script>window.location = "input_buku.php"</script>';
+                        echo '<script>window.location = "dashboard_admin.php"</script>';
                     } else {
                         echo '<script>alert("Username atau Password salah!")</script>';
                     }
 
 
                 }
+
+               /*  if (isset($_POST['back-btn'])) {
+                    header("location:../login.php");
+                } */
                 ?>
             </div>
         </div>
