@@ -63,7 +63,7 @@
                             <li><a class="dropdown-item" href="bukupelajaran3.php">IX</a></li>
                         </ul>
                     </li>
-                    <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a>
+                <!--    <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a> -->
                 </ul>
                 <a class="btn btn-primary" href="logout.php" role="button">Logout</a>
             </div>

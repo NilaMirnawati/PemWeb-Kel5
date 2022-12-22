@@ -48,7 +48,7 @@
           <ul class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="dashboard.php">HOME</a>
 
-            <li class="nav-item dropdown">
+          <!--  <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdownRuangKelas" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 RUANG KELAS
@@ -69,7 +69,7 @@
                 <li><a class="dropdown-item" href="bukupelajaran2.php">VIII</a></li>
                 <li><a class="dropdown-item" href="bukupelajaran3.php">IX</a></li>
               </ul>
-            </li>
+            </li>  -->
             <a class="nav-item nav-link" href="aboutus.php">ABOUT US</a>
           </ul>
         </div>

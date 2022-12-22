@@ -1,4 +1,4 @@
-<?php include("header_login.php"); ?>
+<?php include("header.php"); ?>
 
 <!-- About Start -->
 <div class="container-xxl py-5">
